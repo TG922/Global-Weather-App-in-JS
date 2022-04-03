@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TG922 Global Weather App</title>
+</head>
+<body>
+    <div class="app-main">
+        <h1>Global Weather App</h1>
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter any city name" autocomplete="off">
+        </div>
+
+        <!--default body-->
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">Delhi, IN</div>
+                <div class="date" id="date">10 Feb (Thursday), 2022</div>
+            </div>
+
+        <!--default body-->
+            <div class="weather-status">
+                <div class="temp" id="temp">32&deg;C</div>
+                <div class="min-max" id="min-max">30&deg;C (min) / 32&deg;C (max)</div>
+                <div class="weather" id="weather">Clear</div>
+                <div id="img"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="fetch_api.js"></script>
+</body>
+</html>
