@@ -1,1 +1,1 @@
-# Global-Weather-App-in-JS(InProg)
+# Global-Weather-App-in-JS
