@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Created By https://github.com/TG922*/
+body {
+    background-image: url('media/Background vid.gif');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-color:rgb(167, 167, 167);
+}
+
+h1{
+    color:yellow;
+}
+
+.app-main {
+    width: 50vh;
+    margin: 100px auto;
+    /* background-color: rgba(15, 104, 182, 0.6); */
+    background-color: purple;
+    opacity:90%;
+    padding: 20px;
+    border-radius:22px;
+    text-align: center;
+}
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    /* background-color: rgba(255,255,255,0.6); */
+    background-color: #a0c45c;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 15px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgb(211, 206, 206);
+}
+
+
+.weather-body {
+    display: none;
+    color: yellow;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color:#333;
+    height: 50vh;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 4px 8px rgba(255, 7, 7, 0.3);
+}
+
+.min-max, .weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
